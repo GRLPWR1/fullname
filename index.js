@@ -1,9 +1,6 @@
 const input = document.querySelector('.inputName');
 const btnReady = document.querySelector('.btnReady');
-// const result = document.querySelector()
-btnReady.addEventListener('click', fullName);
-
-function fullName {
+function fullName() {
     let text = input.value;
     let textTrimmed = text.trim();
     let arr = textTrimmed.split(" ");
@@ -17,5 +14,4 @@ function fullName {
     document.querySelector('#firstName').innerHTML = 'Имя: ' + firstNameFixed;
     document.querySelector('#patronimic').innerHTML = 'Отчество: ' + paronimicFixed;
 }
-// не работает, и я не понимаю, почему
 
